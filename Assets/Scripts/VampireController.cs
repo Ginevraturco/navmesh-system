@@ -8,9 +8,16 @@ public class VampireController : MonoBehaviour
     // A gameObject in scene displaying the target point of the agent
     public GameObject targetPoint;
 
+    public GameObject pumpkin;
+
     void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
+    }
+
+    public void Powerup()
+    {
+        pumpkin.SetActive(true);
     }
 
     void Update()
