@@ -68,7 +68,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smellSense: 5
-  brain: {fileID: 0}
 --- !u!1001 &6224807284088251098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -136,6 +135,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2869625544016199817, guid: ec3ac319551dbbc499f75bcf71b9c094,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: a115248bcdcff1c439c592b97bf81828, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec3ac319551dbbc499f75bcf71b9c094, type: 3}
 --- !u!4 &1375922185524316608 stripped
